@@ -1,8 +1,4 @@
 testName,finalPosX,finalPosY,coins
-borders.txt,9,0,19
-walls.txt,4,6,8
 generic.txt,6,1,27
 initialPosition1.txt,-1,-1,0
-initialPosition2.txt,-1,-1,0
-generated.txt,14869,4926,894
-generated-smaller.txt,2142,147,148
+runtim.txt,2142,147,148
