@@ -2,6 +2,7 @@
 Follow the instructions below for either JavaScript or Python code.
 Feel free to add new test cases inside the js_test or py_test directories, and update the test specs accordingly.
 
+
 ## Javascript tests
 1. Place files to test inside the js_test directory. Make sure the test scripts are in the first level of js_test.
 2. Run `npm i` in the js_test directory if this is your first time running the jasmine test.
@@ -10,7 +11,7 @@ Feel free to add new test cases inside the js_test or py_test directories, and u
 5. Make sure the pacman function is exported: the end of the `pacman.js` file should have `module.exports.pacman = pacman;`.
 
 ### Understanding the test run (JS)
-The output will return results for 6 tests, including runtimes for each and a total runtime. We are looking for a reasonable runtime for JS tests: less than 15 seconds.
+The output will return results for 3 tests, including runtimes for each and a total runtime. We are looking for a reasonable runtime for JS tests: less than 8 seconds.
 
 
 ## Python tests
@@ -22,4 +23,4 @@ Arguments:
     Path of the pacman.py file you want to test.
 
 ### Understanding the test run (Python)
-The output will return results from 2 groups of tests - runtime and accuracy. The runtime test will always fail, it is used just to show the actual runtime. The accuracy test will return the output from 5 unit tests. We are looking for a reasonable runtime for Python tests: less than 1 second.
+The output will return results from 2 groups of tests - runtime and accuracy. The runtime test will always fail, it is used just to show the actual runtime. The accuracy test will return the output from 3 unit tests. We are looking for a reasonable runtime for Python tests: less than 1 second.

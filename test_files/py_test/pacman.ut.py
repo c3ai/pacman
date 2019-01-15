@@ -44,7 +44,7 @@ from pacman import pacman
 class TestRuntime(unittest.TestCase):
 
     def test_generated_smaller(self):
-        self.assertEqual(pacman("generated-smaller.txt"), (2142, 147, 148))
+        self.assertEqual(pacman("runtime.txt"), (2142, 147, 148))
 
     def test_average_runtime(self):
         times = [self.get_runtime() for i in range(10)]
@@ -52,29 +52,16 @@ class TestRuntime(unittest.TestCase):
 
     def get_runtime(self):
         start = time.time()
-        pacman("generated-smaller.txt")
+        pacman("runtime.txt")
         return time.time() - start
 
 class TestSimulation(unittest.TestCase):
 
-    def test_borders(self):
-        self.assertEqual(pacman("borders.txt"), (9, 0, 19))
-
-    def test_walls(self):
-        self.assertEqual(pacman("walls.txt"), (4, 6, 8))
-
     def test_generic(self):
         self.assertEqual(pacman("generic.txt"), (6, 1, 27))
 
-    def test_initialPosition1(self):
-        self.assertEqual(pacman("initialPosition1.txt"), (-1, -1, 0))
-
-    def test_initialPosition2(self):
-        self.assertEqual(pacman("initialPosition2.txt"), (-1, -1, 0))
-
-    # def test_generated(self):
-    #     self.assertEqual(pacman("generated.txt"), (14869, 4926, 894))
-
+    def test_edge(self):
+        self.assertEqual(pacman("edge.txt"), (-1, -1, 0))
 
 if __name__ == '__main__':
     for testClass in [TestRuntime, TestSimulation]:
