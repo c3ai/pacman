@@ -1,5 +1,5 @@
 # Introduction
-Hello, and welcome to your take home assignment for the Forward Deployed Solution Engineer @ C3 IoT! First, thank you for your time and energy spent in this process, we fully understand that you probably have a million other things to do but this is an important screening step before moving into the advanced stages of interviews.
+Hello, and welcome to your take home assignment for the Forward Deployed Solution Engineer @ C3! First, thank you for your time and energy spent in this process, we fully understand that you probably have a million other things to do but this is an important screening step before moving into the advanced stages of interviews.
 
 Your assignment is to write a program that navigates a 2-Dimensional board covered in coins which are picked up as you move over them, much like the game of PAC-MAN. Your program will take 4 inputs, `board_dimension`, `initial_position`, `movements`, and `walls`.
 
