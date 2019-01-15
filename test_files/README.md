@@ -1,8 +1,9 @@
 # Running PACMAN Tests 
-Follow the instructions below for either JavaScript or Python code
+Follow the instructions below for either JavaScript or Python code.
+Feel free to add new test cases inside the js_test or py_test directories, and update the test specs accordingly.
 
 ## Javascript tests
-1. Place any new test files inside the js_test directory. Make sure the test scripts are in the first level of js_test.
+1. Place files to test inside the js_test directory. Make sure the test scripts are in the first level of js_test.
 2. Run `npm i` in the js_test directory if this is your first time running the jasmine test.
 3. If you don't have jasmine installed globally, run `npm install -g jasmine` before proceeding.
 4. Run `jasmine spec/PacmanSpec.js ../pacman` from the js_test directory.
@@ -13,7 +14,7 @@ The output will return results for 6 tests, including runtimes for each and a to
 
 
 ## Python tests
-1. Place any new test files inside the py_test directory. Make sure the test scripts are in the first level of js_test.
+1. Place files to test inside the py_test directory. Make sure the test scripts are in the first level of js_test.
 2. Usage (from the py_test directory):
   `python pacman.ut.py [submission.py]`
 Arguments:
