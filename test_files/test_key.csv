@@ -1,4 +1,4 @@
 testName,finalPosX,finalPosY,coins
 generic.txt,6,1,27
-initialPosition1.txt,-1,-1,0
+edge.txt,-1,-1,0
 runtime.txt,2142,147,148
