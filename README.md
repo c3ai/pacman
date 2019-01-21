@@ -47,7 +47,7 @@ return [1, 4, 7]
 ```
 We will be testing edge cases on your code, so if there are any problems with the inputs, execution of the instructions, or any other cases you can think of, have your `pacman` function return `[-1, -1, 0]` (js) or `(-1, -1, 0)` (py).
 
-### Getting Started
+# Getting Started
 1. Clone this git repository and build your solution using the files in starter_code
 2. Once you think you have a working solution, test it with the 3 sample test files we have provided (instructions are within the test_files folder)
 3. Create your own test files
