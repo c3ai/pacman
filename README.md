@@ -31,7 +31,7 @@ Given the inputs described above, your program should have two outputs:
 - Pac-Man's final location in (x,y)
 - The number of coins that have been collected across all movements
 
-Your program output should be in the form of returned values from your `pacman` function, and follow the format specified in the starter code files (linked below).
+Your program output should be in the form of returned values from your `pacman` function, and follow the format specified in the starter code files in the git repo.
 
 Example (matching the input above):  
 
@@ -45,29 +45,27 @@ Javascript:
 // [finalXposition, finalYposition, totalCoins]
 return [1, 4, 7]
 ```
-We will be testing edge cases on your code, so if there are any problems with the inputs, execution of the instructions, or any other cases you can think of, have your `pacman` function return `[-1, -1, 0]` (js) or `-1, -1, 0` (py).
+We will be testing edge cases on your code, so if there are any problems with the inputs, execution of the instructions, or any other cases you can think of, have your `pacman` function return `[-1, -1, 0]` (js) or `(-1, -1, 0)` (py).
 
-### Starter Code
-Please use these starter code files to format your input and outputs. Don't change the name of the function, the input argument, or the order of the returned values. This is very important for us to easily test your code. Otherwise, code organization is very important to us, so you are free to add any additional files/functions/classes/etc. as you see fit.
-
-- [Python](https://github.com/c3ai/pacman/blob/master/boilerplates/pacman.py)
-- [Javascript](https://github.com/c3ai/pacman/blob/master/boilerplates/pacman.js)
+### Getting Started
+1. Clone this git repository and build your solution using the files in starter_code
+2. Once you think you have a working solution, test it with the 3 sample test files we have provided (instructions are within the test_files folder)
+3. Create your own test files
+4. Ensure your code runs with our test scripts smoothly - this is exactly how we'll be testing your code (with our own tests) after submission
 
 # Deliverable
 The program:
-
-- must run on Mac OS X, Linux (x86-64)
-- must be written in one of Python or JavaScript following the above templates
+- must be written in one of Python or JavaScript following the starter code templates
 - can make use of any existing open source libraries that don't directly address the problem statement (use your best judgement).  
 
 Send us:
-- The full source code, including any code written which is not part of the normal program run (scripts, tests), and setup/execution instructions
+- A zipped copy of this repository, with your solution code and any tests you created in the correct test folder. We should be able to run the test script without moving any of your files around.
 
 # Evaluation Criteria
 The point of the exercise is for us to see some of the code you wrote (and should be proud of). There isn't a single solution and the problem intentionally allows you creative freedom and ability to flex your skill. We believe we can learn a lot from how you approach a small challenge like this, and think it can be fun to write as well!
 
 We will especially consider:
 - Code organization
-- Quality, including tests
+- Quality, including tests you may write yourself
 - Readability
 - Actually solving the problem (edge cases included)

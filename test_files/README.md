@@ -4,18 +4,17 @@ Feel free to add new test cases inside the js_test or py_test directories, and u
 
 
 ## Javascript tests
-1. Place files to test inside the js_test directory. Make sure the test scripts are in the first level of js_test.
+1. Place files to test inside the js_test directory. Make sure they are in the first level of js_test.
 2. Run `npm i` in the js_test directory if this is your first time running the jasmine test.
 3. If you don't have jasmine installed globally, run `npm install -g jasmine` before proceeding.
 4. Run `jasmine spec/PacmanSpec.js ../pacman` from the js_test directory.
-5. Make sure the pacman function is exported: the end of the `pacman.js` file should have `module.exports.pacman = pacman;`.
 
 ### Understanding the test run (JS)
 The output will return results for 3 tests, including runtimes for each and a total runtime. We are looking for a reasonable runtime for JS tests: less than 8 seconds.
 
 
 ## Python tests
-1. Place files to test inside the py_test directory. Make sure the test scripts are in the first level of js_test.
+1. Place files to test inside the py_test directory. Make sure they are in the first level of js_test.
 2. Usage (from the py_test directory):
   `python pacman.ut.py [submission.py]`
 Arguments:
