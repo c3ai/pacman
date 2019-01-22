@@ -38,7 +38,7 @@ Example (matching the input above):
 Python:
 ```py
 # finalXposition, finalYposition, totalCoins
-return 1, 4, 7
+return (1, 4, 7)
 ```
 Javascript:
 ```js
