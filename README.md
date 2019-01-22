@@ -54,12 +54,13 @@ We will be testing edge cases on your code, so if there are any problems with th
 4. Ensure your code runs with our test scripts smoothly - this is exactly how we'll be testing your code (with our own tests) after submission
 
 # Deliverable
-The program:
-- must be written in one of Python or JavaScript following the starter code templates
-- can make use of any existing open source libraries that don't directly address the problem statement (use your best judgement).  
+## The program:
+- Must be written in one of Python or JavaScript following the starter code templates
+- Can make use of any existing open source libraries that don't directly address the problem statement (use your best judgement).  
 
-Send us:
-- A zipped copy of this repository, with your solution code and any tests you created in the correct test folder. We should be able to run the test script without moving any of your files around.
+## How to submit:
+- Create a zipped copy of the whole repository with your solution code and any tests you created in the correct test folder. For example, python solution code should be in the py_test folder and we should be able to run the test script without moving any of your files around
+- Shoot us an email with the zipped file AND Cc `FDSE_Te.a4x78dh8feui88ct@u.box.com`
 
 # Evaluation Criteria
 The point of the exercise is for us to see some of the code you wrote (and should be proud of). There isn't a single solution and the problem intentionally allows you creative freedom and ability to flex your skill. We believe we can learn a lot from how you approach a small challenge like this, and think it can be fun to write as well!
