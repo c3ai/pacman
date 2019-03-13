@@ -6,7 +6,7 @@ __author__ = "Your Name"
 
 
 def pacman(input_file):
-    """ Use this function to format your input/output arguments. Be sure not change the order of the output arguments. 
+    """ Use this function to format your input/output arguments. Be sure not to change the order of the output arguments. 
     Remember that code organization is very important to us, so we encourage the use of helper fuctions and classes as you see fit.
     
     Input:
