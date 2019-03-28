@@ -14,7 +14,7 @@ The output will return results for 3 tests, including runtimes for each and a to
 
 
 ## Python tests
-1. Place files to test inside the py_test directory. Make sure they are in the first level of js_test.
+1. Place files to test inside the py_test directory. Make sure they are in the first level of py_test.
 2. Usage (from the py_test directory):
   `python pacman.ut.py [submission.py]`
 Arguments:
