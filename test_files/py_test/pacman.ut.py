@@ -26,7 +26,7 @@ from pacman import pacman
 
 class TestRuntime(unittest.TestCase):
 
-    def test_generated_smaller(self):
+    def test_runtime(self):
         self.assertEqual(pacman("runtime.txt"), (2142, 147, 148))
 
     def test_average_runtime(self):
