@@ -10,7 +10,7 @@ Feel free to add new test cases inside the js_test or py_test directories, and u
 4. Run `jasmine spec/PacmanSpec.js ../pacman` from the js_test directory.
 
 ### Understanding the test run (JS)
-The output will return results for 3 tests, including runtimes for each and a total runtime. We are looking for a reasonable runtime for JS tests: less than 8 seconds.
+The output will return results for 3 tests, including runtimes for each and a total runtime. We are looking for a reasonable runtime for JS tests: less than 5 seconds.
 
 
 ## Python tests
@@ -22,4 +22,4 @@ Arguments:
     Path of the pacman.py file you want to test.
 
 ### Understanding the test run (Python)
-The output will return results from 2 groups of tests - runtime and accuracy. The runtime test will always fail, it is used just to show the actual runtime. The accuracy test will return the output from 3 unit tests. We are looking for a reasonable runtime for Python tests: less than 1 second.
+The output will return 'OK' and include a runtime if all the tests pass. If any tests fail, the total number of failures and reason for each failure will be returned as well as a total runtime. We are looking for a reasonable runtime for PY tests: less than 1 second.
