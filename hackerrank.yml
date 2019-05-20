@@ -1,0 +1,12 @@
+version: 1.0
+configuration:
+  has_webserver: false
+  scoring:
+    command: bash score.sh
+  ide_config:
+    default_open_files:
+      - score.sh
+    project_menu:
+      run: echo start
+      install: echo install
+      test: echo start
