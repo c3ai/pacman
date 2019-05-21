@@ -8,6 +8,7 @@ Your assignment is to write a program that navigates a 2-dimensional board cover
 
 Coins are in every position of the rectangular board except for the initial position and positions that have walls. If Pac-Man is instructed to move into a wall (on the perimeter of the board or as defined by the walls input) it should have no effect (Pac-Man stays in place).
 
+
 ## Program Input
 Your program will take as input a multiline string consisting of:
 
@@ -28,6 +29,7 @@ NNESEESWNWW
 
 The above input should inform your program that you have a 5 x 5 board with walls placed at positions `[(1,0),(2,2),(2,3)]`. Pac-Man will start at position `(1,2)` and will "attempt" to move in the following sequence: `N-N-E-S-E-E-S-W-N-W-W`.
 
+
 ## Program Output
 The `pacman` function should return Pac-Man's final location in (x,y) and the number of coins that have been collected across all movements in the following format:
 
@@ -42,9 +44,11 @@ For example, the above input should return:
 ```
 We will be testing edge cases on your code, so if there are any problems with the inputs, execution of the instructions, or any other cases you can think of, have your `pacman` function return `[-1, -1, 0]`.
 
+
 ## Tips
 - Your solution can make use of any existing open source libraries.
 - Feel free to use your favorite IDE to code up and test your solution before copying and pasting back into HackerRank.
+
 
 ## Evaluation Criteria
 The point of the exercise is for us to see some of the code you wrote (and should be proud of). There isn't a single solution and the problem intentionally allows you creative freedom and ability to flex your skill. We believe we can learn a lot from how you approach a small challenge like this, and think it can be fun to write as well!
