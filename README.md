@@ -1,7 +1,7 @@
 ![alt text](pacman.png)
 
 ## Introduction
-Hello, and welcome to your assignment for the Forward Deployed Solution Engineer role at C3! First, thank you for your time and energy spent in this process; we fully understand that you probably have a million other things to do, but this is an important screening step before moving into the advanced stages of interviews.
+Hello, and welcome to your assignment for the Forward Deployed Solution Engineer role at C3.ai! First, thank you for your time and energy spent in this process; we fully understand that you probably have a million other things to do, but this is an important screening step before moving into the advanced stages of interviews.
 
 Your assignment is to write a program that navigates a 2-dimensional board covered in coins which are picked up as you move over them, much like the game of Pac-Man. Your program will take a single input which contains 4 components: board dimensions, an initial position, movements, and walls.
 
