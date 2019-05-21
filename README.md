@@ -11,10 +11,10 @@ Coins are in every position of the rectangular board except for the initial posi
 ## Program Input
 Your program will take as input a multiline string consisting of:
 
-1. The board dimensions: defined by X and Y coordinates, identifying the top right corner of the room rectangle - that is to say, (0,0) is in the bottom left corner, and (X,Y) is in the top right corner. This board is divided up in a grid based on these dimensions; a board that has dimensions `X=5` and `Y=5` has 5 columns and 5 rows for 25 possible positions.
-2. The initial position: the initial position of Pac-Man in (x,y) coordinates.
-3. The movements: instructions in cardinal directions where e.g. N and E mean "go north" and "go east", respectively. The board is oriented facing north; thus, moving north from (0,0) lands Pac-Man at (0,1).
-4. The walls: the positions of walls on the board in (x,y) coordinates. Pac-Man cannot move through walls.
+1. The board dimensions: defined by X and Y coordinates, identifying the top right corner of the room rectangle - that is to say, `(0,0)` is in the bottom left corner, and `(X,Y)` is in the top right corner. This board is divided up in a grid based on these dimensions; a board that has dimensions `X=5` and `Y=5` has 5 columns and 5 rows for 25 possible positions.
+2. The initial position: the initial position of Pac-Man in `(X,Y)` coordinates.
+3. The movements: instructions in cardinal directions where e.g. N and E mean "go north" and "go east", respectively. The board is oriented facing north; thus, moving north from `(0,0)` lands Pac-Man at `(0,1)`.
+4. The walls: the positions of walls on the board in `(X,Y)` coordinates. Pac-Man cannot move through walls.
 
 Example input values:
 ```
@@ -30,7 +30,7 @@ The above input should inform your program that you have a 5 x 5 board with wall
 
 
 ## Program Output
-The `pacman` function should return Pac-Man's final location in (x,y) and the number of coins that have been collected across all movements in the following format:
+The `pacman` function should return Pac-Man's final location and the number of coins that have been collected in the following format:
 
 ```js
 [finalXposition, finalYposition, totalCoins]
