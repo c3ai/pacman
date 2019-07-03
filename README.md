@@ -27,6 +27,8 @@ NNESEESWNWW
 
 The above input should inform your program that you have a 5 x 5 board with walls placed at positions `[(1,0),(2,2),(2,3)]`. Pac-Man will start at position `(1,2)` and will "attempt" to move in the following sequence: `N-N-E-S-E-E-S-W-N-W-W`.
 
+Note: Any trailing white space or new lines at the end of the file should be ignored.
+
 # Program Output
 Given the inputs described above, your program should have two outputs:
 
