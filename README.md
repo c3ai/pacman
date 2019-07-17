@@ -59,7 +59,7 @@ We will be testing edge cases on your code, so if there are any problems with th
 
 # Deliverable
 ## The program
-- Must be written in one of Python or JavaScript following the starter code templates
+- Must be written in Python or JavaScript following the starter code templates
 - Can make use of any existing open source libraries that don't directly address the problem statement (use your best judgement).
 
 ## How to submit
