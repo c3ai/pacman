@@ -1,4 +1,3 @@
-![alt text](pacman.png)
 ![alt text](fds-pacman2.png)
 
 # Introduction
