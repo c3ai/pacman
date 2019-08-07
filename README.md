@@ -63,10 +63,7 @@ We will be testing edge cases on your code, so if there are any problems with th
 - Can make use of any existing open source libraries that don't directly address the problem statement (use your best judgement).
 
 ## How to submit
-1. Create a zipped copy of the whole repository with your solution code and any tests you created in the correct test folder. For example, python solution code should be in the py_test folder and we should be able to run the test script without moving any of your files around.
-2. Name your zipped file: `firstname_lastname.zip`
-3. Shoot us an email with the zipped file AND Cc `FDSE_Te.a4x78dh8feui88ct@u.box.com`
-4. You're all done! Expect to hear back from us within a week.
+Submit a zipped copy of the whole repository with your solution code and any tests you created in the correct test folder. For example, python solution code should be in the py_test folder and we should be able to run the test script without moving any of your files around.
 
 # Evaluation Criteria
 The point of the exercise is for us to see some of the code you wrote (and should be proud of). There isn't a single solution and the problem intentionally allows you creative freedom and ability to flex your skill. We believe we can learn a lot from how you approach a small challenge like this, and think it can be fun to write as well!
